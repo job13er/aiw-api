@@ -1,0 +1,36 @@
+{
+  "name": "aiw-api",
+  "version": "0.0.1",
+  "description": "API wrapper for the all-i-want app",
+  "homepage": "https://all-i-want.appspot.com",
+  "bugs": {
+    "url": "https://github.com/jobsquad/aiw-api/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Adam Meadows",
+    "email": "adam.meadows@gmail.com"
+  },
+  "main": "src/index.6.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jobsquad/aiw-api.git"
+  },
+  "scripts": {
+    "test": "make ci-test"
+  },
+  "devDependencies": {
+    "beaker": "^3.5.2",
+    "bootstrap": "^3.3.4"
+  },
+  "dependencies": {
+    "jquery": "^2.1.3",
+    "lodash": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.26 <0.11"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
+  }
+}
