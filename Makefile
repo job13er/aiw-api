@@ -41,8 +41,8 @@ coverage: karma-coverage
 report-coverage:
 	$(HIDE)echo "Reporting Coverage not implemented yet"
 
-release:
+release: build-mock
 	$(HIDE)echo "Publishing version $(VERSION)"
 	$(HIDE)npm publish .
 
-ghp-update: build ghp-clean ghp-checkout ghp-copy-webpack ghp-publish
+ghp-update: build ghp-clean ghp-checkout $(GHP_COPY_WEBPACK) ghp-publish
