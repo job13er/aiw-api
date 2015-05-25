@@ -1,0 +1,9 @@
+{
+    "nickname": "The Flash",
+    "logoutUrl": "/_ah/login?continue=http%3A//localhost%3A8080/&action=logout",
+    "ownerId": 5629499534213120,
+    "isAdmin": false,
+    "email": "barry.allen@justice-league.com",
+    "wasReqDenied": null,
+    "userId": "185804764220139124118"
+}
